@@ -1,0 +1,6 @@
+﻿  HelloWorldScene.cpp
+f:\project\cocos2dx\cocos\cocosprojects\test\classes\helloworldscene.cpp(93): warning C4305: “参数”: 从“double”到“float”截断
+  复制了 60 个文件
+  Test.vcxproj -> F:\Project\Cocos2dX\Cocos\CocosProjects\Test\proj.win32\Debug.win32\Test.exe
+  Test.vcxproj -> F:\Project\Cocos2dX\Cocos\CocosProjects\Test\proj.win32\Debug.win32\Test.pdb (Full PDB)
+  复制了 0 个文件

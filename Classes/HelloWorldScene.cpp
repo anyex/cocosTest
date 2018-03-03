@@ -109,6 +109,9 @@ bool HelloWorld::init()
 	auto rotateBy = RotateBy::create(2,20);
 	auto rotateTo = RotateTo::create(2, 20);
 	beauty->runAction(rotateTo);
-
+	 //缩放
+	auto scaleBy = ScaleBy::create(2.0f, 3.0f);//将当前尺寸放大3倍
+	auto scaleTo = ScaleTo::create(2.0f,0.5f);//放大当前比例到0.5,如果已经通过setScale设置为0.5将不会放大
+	beauty->runAction(scaleTo);
     return true;
 }
